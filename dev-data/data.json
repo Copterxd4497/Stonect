@@ -1,0 +1,27 @@
+[
+  {
+    "id": 0,
+    "stockname": "CCP",
+    "price": "10.00"
+  },
+  {
+    "id": 1,
+    "stockname": "BLM",
+    "price": "7.02"
+  },
+  {
+    "id": 2,
+    "stockname": "KPS",
+    "price": "17.23"
+  },
+  {
+    "id": 3,
+    "stockname": "RRE",
+    "price": "120.56"
+  },
+  {
+    "id": 4,
+    "stockname": "TTY",
+    "price": "5.71"
+  }
+]
