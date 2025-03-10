@@ -1,6 +1,7 @@
 const express = require("express");
 const morgan = require("morgan");
 
+const userRouter = require("./routers/userRoutes");
 const app = express();
 
 // Middleware
@@ -12,5 +13,8 @@ app.use((req, res, next) => {
   console.log("Hello from the Middleware😀😀😀");
   next();
 });
+
+//mounting mutiple routers
+app.use("/api/v1/users", userRouter);
 
 module.exports = app;
